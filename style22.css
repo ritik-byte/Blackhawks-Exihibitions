@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(7, 7, 7); */
+}
+/* body::before {
+    content: "";
+    background: url('./contact.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+} */
+
+/* nilesh work */
+.con{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+   align-items: center;
+    text-align: center;
+    /* background-color: blue; */
+    height: 100vh;
+
+}
+.container h1 {
+    margin: 20px;
+    /* color: white; */
+}
+
+.container h2 {
+    margin: 10px;
+    color: rgb(63, 57, 150);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: rgb(252, 252, 252);
+    margin: 10px;
+    padding: 30px;
+    /* border-radius: 10px; */
+    position: center;
+    box-shadow: 10px 10px 10px rgb(143, 140, 140);
+}
+
+#contact {
+    color: black;
+    margin-top: 25px;
+    /* border: 2px solid black; */
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 6px;
+    /* border: 3px solid black; */
+    /* border-radius: 17px; */
+    padding: 15px;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: none;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    outline: none;
+    box-shadow: 8px 8px 8px rgb(171, 230, 203);
+
+}
+
+#btn {
+    margin: 3px 6px;
+    padding: 10px;
+    background-color: beige;
+    color: rgb(4, 140, 155);
+    cursor: pointer;
+    /* border-radius: 17px; */
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 3px solid rgb(30, 30, 29); */
+    box-shadow: 10px 10px 10px rgb(143, 140, 140);
+
+}
+
+#btn:hover {
+    background-color: rgb(212, 212, 189);
+    color: black;
+}
+@media screen and (max-width: 768px) {
+   #contact {
+    width: 100%;
+   }
+   /* input, textarea {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+   
+} */
+   #btn{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+   }
+  }

@@ -1,0 +1,92 @@
+@media screen and (max-width:1090px) {
+    .side{
+        width: 20rem;
+        /* margin: 2rem; */
+    }
+    .side-bar{
+        /* margin-top: 2rem; */
+        width: 20rem;
+    }
+    .side-bar ul a li{
+        padding: 2px;
+    }
+}
+@media screen and (max-width:950px) {
+    .side{
+        width: 17rem;
+        margin: 2rem;
+        margin-top: 0;
+    }
+    .side-bar{
+        /* margin-top: 2rem; */
+        width: 17rem;
+    }
+    .side-bar ul a li{
+        padding: 2px;
+    }
+}
+@media screen and (max-width:600px) {
+.fl {
+    margin: 0;
+    display: block;
+    padding: 0;
+    padding-left: 2px;
+}
+    .side-bar{
+        width: 25rem;
+    }
+    .si{
+        width: 25rem;
+    }
+    .to{
+        width: auto;
+    }
+
+}
+@media screen and (max-width:470px) {
+    .side{
+        width: 15rem;
+        margin: 2rem;
+    }
+    .side-bar{
+        margin-top: 2rem;
+        width: 20rem;
+    }
+    .side-bar ul a li{
+        padding: 2px;
+    }
+    .si{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:370px) {
+    .side{
+        width: 10rem;
+        margin: 2rem;
+    }
+    .side-bar{
+        margin-top: 2rem;
+        width: 17rem;
+    }
+    .side-bar ul a li{
+        padding: 2px;
+    }
+    .si {
+        background-color: #1e0d04;
+        color: white;
+        text-align: center;
+        width: max-content;
+    }
+}
+@media screen and (max-width:310px) {
+    .side{
+        width: 10rem;
+        margin: 2rem;
+    }
+    .side-bar{
+        margin-top: 2rem;
+        width: max-content;
+    }
+   
+}
+
